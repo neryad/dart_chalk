@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.0.2] - 2025-01-18
+
+### Changed
+- Added comprehensive dartdoc documentation to all public APIs
+- Improved code documentation coverage to meet pub.dev standards
+
 ## [0.0.1] - 2025-01-17
 
 ### Added

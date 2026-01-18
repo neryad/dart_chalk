@@ -1,6 +1,6 @@
 name: dchalky
 description:  A simple and elegant way to add colors and styles to your Dart/Flutter console logs, inspired by Chalk.js
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/neryad/dart_chalk.git
 license: MIT
 
