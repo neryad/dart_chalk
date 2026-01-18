@@ -1,5 +1,5 @@
+import 'package:dchalky/dchalky.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:dart_chalk/dart_chalk.dart';
 
 void main() {
   test('Chalk applies red color', () {

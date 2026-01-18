@@ -1,4 +1,4 @@
-import 'package:dart_chalk/dart_chalk.dart';
+import 'package:dchalky/dchalky.dart';
 
 void main() {
   // Uso básico
