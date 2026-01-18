@@ -1,39 +1,43 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+# Dart Chalk
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/tools/pub/writing-package-pages).
-
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/to/develop-packages).
--->
-
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+A simple and elegant way to add colors and styles to your Dart/Flutter console logs, inspired by Chalk.js
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
-
-## Getting started
-
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+- 🎨 Simple and intuitive API
+- 🌈 Support for 16 colors (8 normal + 8 bright)
+- 💅 Multiple text styles (bold, italic, underline, etc.)
+- 🎭 Background colors
+- ⛓️ Chainable API
+- 🔌 Easy to enable/disable globally
 
 ## Usage
-
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
-
 ```dart
-const like = 'sample';
+import 'package:dart_chalk/dart_chalk.dart';
+
+void main() {
+  print(chalk.red('Error!'));
+  print(chalk.green.bold('Success!'));
+  print(chalk.bgBlue.white('Info'));
+}
 ```
 
-## Additional information
+## Installation
+```yaml
+dependencies:
+  dart_chalk: ^0.0.1
+```
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+## API
+
+### Colors
+`black`, `red`, `green`, `yellow`, `blue`, `magenta`, `cyan`, `white`, `gray`
+
+### Bright Colors
+`brightRed`, `brightGreen`, `brightYellow`, `brightBlue`, `brightMagenta`, `brightCyan`, `brightWhite`
+
+### Background Colors
+`bgBlack`, `bgRed`, `bgGreen`, `bgYellow`, `bgBlue`, `bgMagenta`, `bgCyan`, `bgWhite`
+
+### Styles
+`bold`, `dim`, `italic`, `underline`, `inverse`, `strikethrough`
